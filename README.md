@@ -135,6 +135,8 @@ def breadth_first_search(problem):
    return failure
 ```
 ## OUTPUT:
+![Screenshot_638](https://user-images.githubusercontent.com/75235704/167260123-2f0d0259-b304-4b77-8d40-05883330a590.png)
+
 
 ## SOLUTION JUSTIFICATION:
 Found the minimum distance route from the source to the destination point using breadth-first search.
