@@ -30,14 +30,16 @@ End of program.
 ![ alt text for screen readers](./images/map1.jpg "Map around my house")
 
 ## PROGRAM
-# Prepared by 
-# C. Obed Otto, 
-# Department of Artificial Intelligence and Datascience,
-# Saveetha Engineering College. 602105. India.
 
-# Experiment done by
-# Student name DurgDevi P
+Prepared by 
+C. Obed Otto, 
+Department of Artificial Intelligence and Datascience,
+Saveetha Engineering College. 602105. India.
+
+Experiment done by
+Student name DurgDevi P
 Reg No 212220230015
+
 
 %matplotlib inline
 import matplotlib.pyplot as plt
@@ -46,7 +48,6 @@ import math
 import sys
 from collections import defaultdict, deque, Counter
 from itertools import combinations
-
 ### Problems
 This is the abstract class. Specific problem domains will subclass this.
 
