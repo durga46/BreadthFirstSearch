@@ -31,7 +31,7 @@ End of program.
 ## ROUTE MAP
 ![map 2](https://user-images.githubusercontent.com/75235704/167242266-ade52fd6-3ec6-429f-8df4-e4f9cb0f8400.png)
 
-## PROGRAM
+### PROGRAM
 ```python
 Prepared by 
 C. Obed Otto, 
@@ -73,7 +73,7 @@ class Problem(object):
 ### Nodes
 This is the Node in the search tree. Helper functions (expand, path_actions, path_states) use this Node class. 
 
-class Node:
+### class Node:
    def __init__(self, state, parent=None, action=None, path_cost=0):
        self.__dict__.update(state=state, parent=parent, action=action, path_cost=path_cost)
 
