@@ -29,7 +29,7 @@ End of program.
 <br>
 
 ## ROUTE MAP
-![map original](https://user-images.githubusercontent.com/75235704/167244911-5b0a25de-d1f2-4d85-97d0-9dfb501fde16.png)
+![route map](https://user-images.githubusercontent.com/75235704/167245091-eb528472-a037-4629-9ff7-e5421ed0dc6f.png)
 
 ### PROGRAM
 ```python
