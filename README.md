@@ -53,7 +53,7 @@ from itertools import combinations
 ```
 ### Problems
 This is the abstract class. Specific problem domains will subclass this.
-
+```python
 class Problem(object):
    def __init__(self, initial=None, goal=None, **kwds): 
        self.__dict__.update(initial=initial, goal=goal, **kwds) 
@@ -70,11 +70,11 @@ class Problem(object):
    def __str__(self):
        return '{0}({1}, {2})'.format(
            type(self).__name__, self.initial, self.goal)
-           
+```
 ### Nodes
 This is the Node in the search tree. Helper functions (expand, path_actions, path_states) use this Node class. 
-
-### class Node:
+```python
+class Node:
    def __init__(self, state, parent=None, action=None, path_cost=0):
        self.__dict__.update(state=state, parent=parent, action=action, path_cost=path_cost)
 
@@ -87,8 +87,9 @@ This is the Node in the search tree. Helper functions (expand, path_actions, pat
 
 failure = Node('failure', path_cost=math.inf) 
 cutoff  = Node('cutoff',  path_cost=math.inf)
-
+```
 ### Helper functions
+```python
 def expand(problem, node):
    "Expand a node, generating the children nodes."
    s = node.state
@@ -112,8 +113,9 @@ def path_states(node):
    return path_states(node.parent) + [node.state]
 
 FIFOQueue = deque
-
+```
 ### Search Algorithm : Breadth First Search
+```python
 def breadth_first_search(problem):
    "Search shallowest nodes in the search tree first."
    node = Node(problem.initial)
